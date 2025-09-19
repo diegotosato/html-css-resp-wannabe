@@ -1,3 +1,18 @@
+/* media query bonus 768px to 1160px */
+@media screen and (max-width: 1160px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+
 /* media query tablet */
 
 @media screen and (max-width: 768px) {
