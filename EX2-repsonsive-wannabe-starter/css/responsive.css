@@ -1,7 +1,7 @@
 /* media query tablet */
 
 @media screen and (max-width: 768px) {
-    .container{
+    .container {
         width: 90%;
         padding: 0;
     }
@@ -14,12 +14,26 @@
 /* media query mobile */
 
 @media screen and (max-width: 480px) {
-    .container{
-        width: 90%;
+    .container {
+        width: 70%;
         padding: 0;
     }
 
-    .row{
-        flex-wrap: wrap;
+    .lessons .col {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
     }
 }
